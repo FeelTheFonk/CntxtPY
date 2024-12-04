@@ -15,9 +15,13 @@
 -  Optimized prompts: Provides structured context for better LLM responses.
 -  Streamlines collaboration: Helps LLMs explain and document code easily.
 
-Supercharge your LLM's understanding of Python codebases. CntxtPY generates comprehensive knowledge graphs that help LLMs navigate and comprehend your code structure with minimal token usage.
+Supercharge your understanding of Python codebases. CntxtPY generates comprehensive knowledge graphs that help LLMs navigate and comprehend your code structure with minimal token usage.
 
 It's like handing your LLM the cliff notes instead of a novel.
+
+## **Active Enhancement Notice**
+
+- CntxtPY is **actively being enhanced at high velocity with improvements every day**. Thank you for your contributions! 🙌
 
 ## ✨ Features
 
@@ -41,10 +45,10 @@ It's like handing your LLM the cliff notes instead of a novel.
 git clone https://github.com/brandondocusen/CntxtPY.git
 
 # Navigate to the directory
-cd CntxtPY
+cd CntxtPY-main
 
 # Install required packages
-pip install networkx matplotlib typing-extensions
+pip install pyyaml configparser toml chardet networkx
 
 # Run the analyzer
 python cntxtpy.py
